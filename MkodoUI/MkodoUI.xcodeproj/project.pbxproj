@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		103C2A882C8264C300A32F91 /* MkodoUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103C2A872C8264C300A32F91 /* MkodoUIApp.swift */; };
+		103C2A8C2C8264C400A32F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103C2A8B2C8264C400A32F91 /* Assets.xcassets */; };
+		103C2A8F2C8264C400A32F91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103C2A8E2C8264C400A32F91 /* Preview Assets.xcassets */; };
+		10B75B092C82728A00AEDD0B /* MkodoNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B75B082C82728A00AEDD0B /* MkodoNetwork.framework */; };
+		10B75B0A2C82728A00AEDD0B /* MkodoNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 10B75B082C82728A00AEDD0B /* MkodoNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		10B75B0F2C8277F100AEDD0B /* DrawsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B0E2C8277F100AEDD0B /* DrawsView.swift */; };
+		10B75B112C82781600AEDD0B /* DrawsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B102C82781600AEDD0B /* DrawsViewModel.swift */; };
+		10B75B142C828C1C00AEDD0B /* DrawDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B132C828C1C00AEDD0B /* DrawDetailView.swift */; };
+		10B75B192C82979100AEDD0B /* MyTicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B182C82979100AEDD0B /* MyTicketsView.swift */; };
+		10B75B1B2C84A79F00AEDD0B /* DrawDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B1A2C84A79F00AEDD0B /* DrawDetailViewModel.swift */; };
+		10B75B1E2C84B0BA00AEDD0B /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B1D2C84B0BA00AEDD0B /* NumberView.swift */; };
+		10B75B202C84BF5C00AEDD0B /* PreviewItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B1F2C84BF5C00AEDD0B /* PreviewItems.swift */; };
+		10B75B222C84C20400AEDD0B /* DrawsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B212C84C20400AEDD0B /* DrawsViewModelTests.swift */; };
+		10B75B242C84C29C00AEDD0B /* LotteryServiceProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B232C84C29C00AEDD0B /* LotteryServiceProtocolMock.swift */; };
+		10B75B262C84E16600AEDD0B /* DrawDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B252C84E16600AEDD0B /* DrawDetailViewModelTests.swift */; };
+		10B75B292C84E5E700AEDD0B /* LotteryDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B282C84E5E700AEDD0B /* LotteryDraw.swift */; };
+		10B75B2A2C84F01F00AEDD0B /* LotteryServiceProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B232C84C29C00AEDD0B /* LotteryServiceProtocolMock.swift */; };
+		10B75B312C85257000AEDD0B /* DrawDetailContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B75B302C85257000AEDD0B /* DrawDetailContainerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		103C2A952C8264C400A32F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103C2A7C2C8264C300A32F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103C2A832C8264C300A32F91;
+			remoteInfo = MkodoUI;
+		};
+		103C2A9F2C8264C400A32F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103C2A7C2C8264C300A32F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103C2A832C8264C300A32F91;
+			remoteInfo = MkodoUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10B75B0B2C82728A00AEDD0B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				10B75B0A2C82728A00AEDD0B /* MkodoNetwork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		103C2A842C8264C300A32F91 /* MkodoUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MkodoUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		103C2A872C8264C300A32F91 /* MkodoUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MkodoUIApp.swift; sourceTree = "<group>"; };
+		103C2A8B2C8264C400A32F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		103C2A8E2C8264C400A32F91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		103C2A942C8264C400A32F91 /* MkodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MkodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		103C2A9E2C8264C400A32F91 /* MkodoUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MkodoUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B75B082C82728A00AEDD0B /* MkodoNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MkodoNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B75B0E2C8277F100AEDD0B /* DrawsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawsView.swift; sourceTree = "<group>"; };
+		10B75B102C82781600AEDD0B /* DrawsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawsViewModel.swift; sourceTree = "<group>"; };
+		10B75B132C828C1C00AEDD0B /* DrawDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawDetailView.swift; sourceTree = "<group>"; };
+		10B75B182C82979100AEDD0B /* MyTicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketsView.swift; sourceTree = "<group>"; };
+		10B75B1A2C84A79F00AEDD0B /* DrawDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawDetailViewModel.swift; sourceTree = "<group>"; };
+		10B75B1D2C84B0BA00AEDD0B /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		10B75B1F2C84BF5C00AEDD0B /* PreviewItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewItems.swift; sourceTree = "<group>"; };
+		10B75B212C84C20400AEDD0B /* DrawsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawsViewModelTests.swift; sourceTree = "<group>"; };
+		10B75B232C84C29C00AEDD0B /* LotteryServiceProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryServiceProtocolMock.swift; sourceTree = "<group>"; };
+		10B75B252C84E16600AEDD0B /* DrawDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawDetailViewModelTests.swift; sourceTree = "<group>"; };
+		10B75B282C84E5E700AEDD0B /* LotteryDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryDraw.swift; sourceTree = "<group>"; };
+		10B75B302C85257000AEDD0B /* DrawDetailContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawDetailContainerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		103C2A812C8264C300A32F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103C2A912C8264C400A32F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B75B092C82728A00AEDD0B /* MkodoNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103C2A9B2C8264C400A32F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103C2A7B2C8264C300A32F91 = {
+			isa = PBXGroup;
+			children = (
+				103C2A862C8264C300A32F91 /* MkodoUI */,
+				103C2A972C8264C400A32F91 /* MkodoUIUnitTests */,
+				103C2A852C8264C300A32F91 /* Products */,
+				10B75B072C82728A00AEDD0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		103C2A852C8264C300A32F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				103C2A842C8264C300A32F91 /* MkodoUI.app */,
+				103C2A942C8264C400A32F91 /* MkodoUITests.xctest */,
+				103C2A9E2C8264C400A32F91 /* MkodoUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		103C2A862C8264C300A32F91 /* MkodoUI */ = {
+			isa = PBXGroup;
+			children = (
+				10B75B272C84E5B300AEDD0B /* DTOs */,
+				10B75B1C2C84B0A300AEDD0B /* CommonUIElements */,
+				10B75B0C2C8277D200AEDD0B /* Scenes */,
+				10B75B152C828CF100AEDD0B /* Previews */,
+				103C2A872C8264C300A32F91 /* MkodoUIApp.swift */,
+				103C2A8B2C8264C400A32F91 /* Assets.xcassets */,
+				103C2A8D2C8264C400A32F91 /* Preview Content */,
+			);
+			path = MkodoUI;
+			sourceTree = "<group>";
+		};
+		103C2A8D2C8264C400A32F91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				103C2A8E2C8264C400A32F91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		103C2A972C8264C400A32F91 /* MkodoUIUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				10B75B232C84C29C00AEDD0B /* LotteryServiceProtocolMock.swift */,
+				10B75B212C84C20400AEDD0B /* DrawsViewModelTests.swift */,
+				10B75B252C84E16600AEDD0B /* DrawDetailViewModelTests.swift */,
+			);
+			path = MkodoUIUnitTests;
+			sourceTree = "<group>";
+		};
+		10B75B072C82728A00AEDD0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10B75B082C82728A00AEDD0B /* MkodoNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10B75B0C2C8277D200AEDD0B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				10B75B0D2C8277D900AEDD0B /* DrawsView */,
+				10B75B122C828BE000AEDD0B /* DrawDetailView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		10B75B0D2C8277D900AEDD0B /* DrawsView */ = {
+			isa = PBXGroup;
+			children = (
+				10B75B102C82781600AEDD0B /* DrawsViewModel.swift */,
+				10B75B0E2C8277F100AEDD0B /* DrawsView.swift */,
+			);
+			path = DrawsView;
+			sourceTree = "<group>";
+		};
+		10B75B122C828BE000AEDD0B /* DrawDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				10B75B302C85257000AEDD0B /* DrawDetailContainerView.swift */,
+				10B75B1A2C84A79F00AEDD0B /* DrawDetailViewModel.swift */,
+				10B75B132C828C1C00AEDD0B /* DrawDetailView.swift */,
+				10B75B182C82979100AEDD0B /* MyTicketsView.swift */,
+			);
+			path = DrawDetailView;
+			sourceTree = "<group>";
+		};
+		10B75B152C828CF100AEDD0B /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				10B75B1F2C84BF5C00AEDD0B /* PreviewItems.swift */,
+			);
+			path = Previews;
+			sourceTree = "<group>";
+		};
+		10B75B1C2C84B0A300AEDD0B /* CommonUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				10B75B1D2C84B0BA00AEDD0B /* NumberView.swift */,
+			);
+			path = CommonUIElements;
+			sourceTree = "<group>";
+		};
+		10B75B272C84E5B300AEDD0B /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				10B75B282C84E5E700AEDD0B /* LotteryDraw.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		103C2A832C8264C300A32F91 /* MkodoUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103C2AA82C8264C400A32F91 /* Build configuration list for PBXNativeTarget "MkodoUI" */;
+			buildPhases = (
+				103C2A802C8264C300A32F91 /* Sources */,
+				103C2A812C8264C300A32F91 /* Frameworks */,
+				103C2A822C8264C300A32F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MkodoUI;
+			productName = MkodoUI;
+			productReference = 103C2A842C8264C300A32F91 /* MkodoUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		103C2A932C8264C400A32F91 /* MkodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103C2AAB2C8264C400A32F91 /* Build configuration list for PBXNativeTarget "MkodoUITests" */;
+			buildPhases = (
+				103C2A902C8264C400A32F91 /* Sources */,
+				103C2A912C8264C400A32F91 /* Frameworks */,
+				103C2A922C8264C400A32F91 /* Resources */,
+				10B75B0B2C82728A00AEDD0B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				103C2A962C8264C400A32F91 /* PBXTargetDependency */,
+			);
+			name = MkodoUITests;
+			productName = MkodoUITests;
+			productReference = 103C2A942C8264C400A32F91 /* MkodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		103C2A9D2C8264C400A32F91 /* MkodoUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103C2AAE2C8264C400A32F91 /* Build configuration list for PBXNativeTarget "MkodoUIUITests" */;
+			buildPhases = (
+				103C2A9A2C8264C400A32F91 /* Sources */,
+				103C2A9B2C8264C400A32F91 /* Frameworks */,
+				103C2A9C2C8264C400A32F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				103C2AA02C8264C400A32F91 /* PBXTargetDependency */,
+			);
+			name = MkodoUIUITests;
+			productName = MkodoUIUITests;
+			productReference = 103C2A9E2C8264C400A32F91 /* MkodoUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		103C2A7C2C8264C300A32F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					103C2A832C8264C300A32F91 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					103C2A932C8264C400A32F91 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 103C2A832C8264C300A32F91;
+					};
+					103C2A9D2C8264C400A32F91 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 103C2A832C8264C300A32F91;
+					};
+				};
+			};
+			buildConfigurationList = 103C2A7F2C8264C300A32F91 /* Build configuration list for PBXProject "MkodoUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 103C2A7B2C8264C300A32F91;
+			productRefGroup = 103C2A852C8264C300A32F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				103C2A832C8264C300A32F91 /* MkodoUI */,
+				103C2A932C8264C400A32F91 /* MkodoUITests */,
+				103C2A9D2C8264C400A32F91 /* MkodoUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		103C2A822C8264C300A32F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103C2A8F2C8264C400A32F91 /* Preview Assets.xcassets in Resources */,
+				103C2A8C2C8264C400A32F91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103C2A922C8264C400A32F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103C2A9C2C8264C400A32F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		103C2A802C8264C300A32F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B75B0F2C8277F100AEDD0B /* DrawsView.swift in Sources */,
+				10B75B112C82781600AEDD0B /* DrawsViewModel.swift in Sources */,
+				10B75B202C84BF5C00AEDD0B /* PreviewItems.swift in Sources */,
+				10B75B292C84E5E700AEDD0B /* LotteryDraw.swift in Sources */,
+				103C2A882C8264C300A32F91 /* MkodoUIApp.swift in Sources */,
+				10B75B312C85257000AEDD0B /* DrawDetailContainerView.swift in Sources */,
+				10B75B192C82979100AEDD0B /* MyTicketsView.swift in Sources */,
+				10B75B1B2C84A79F00AEDD0B /* DrawDetailViewModel.swift in Sources */,
+				10B75B142C828C1C00AEDD0B /* DrawDetailView.swift in Sources */,
+				10B75B2A2C84F01F00AEDD0B /* LotteryServiceProtocolMock.swift in Sources */,
+				10B75B1E2C84B0BA00AEDD0B /* NumberView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103C2A902C8264C400A32F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B75B222C84C20400AEDD0B /* DrawsViewModelTests.swift in Sources */,
+				10B75B262C84E16600AEDD0B /* DrawDetailViewModelTests.swift in Sources */,
+				10B75B242C84C29C00AEDD0B /* LotteryServiceProtocolMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103C2A9A2C8264C400A32F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		103C2A962C8264C400A32F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 103C2A832C8264C300A32F91 /* MkodoUI */;
+			targetProxy = 103C2A952C8264C400A32F91 /* PBXContainerItemProxy */;
+		};
+		103C2AA02C8264C400A32F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 103C2A832C8264C300A32F91 /* MkodoUI */;
+			targetProxy = 103C2A9F2C8264C400A32F91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		103C2AA62C8264C400A32F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		103C2AA72C8264C400A32F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		103C2AA92C8264C400A32F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MkodoUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MkodoUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		103C2AAA2C8264C400A32F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MkodoUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MkodoUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		103C2AAC2C8264C400A32F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MkodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MkodoUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MkodoUI";
+			};
+			name = Debug;
+		};
+		103C2AAD2C8264C400A32F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MkodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MkodoUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MkodoUI";
+			};
+			name = Release;
+		};
+		103C2AAF2C8264C400A32F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MkodoUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MkodoUI;
+			};
+			name = Debug;
+		};
+		103C2AB02C8264C400A32F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MkodoUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MkodoUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		103C2A7F2C8264C300A32F91 /* Build configuration list for PBXProject "MkodoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103C2AA62C8264C400A32F91 /* Debug */,
+				103C2AA72C8264C400A32F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103C2AA82C8264C400A32F91 /* Build configuration list for PBXNativeTarget "MkodoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103C2AA92C8264C400A32F91 /* Debug */,
+				103C2AAA2C8264C400A32F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103C2AAB2C8264C400A32F91 /* Build configuration list for PBXNativeTarget "MkodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103C2AAC2C8264C400A32F91 /* Debug */,
+				103C2AAD2C8264C400A32F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103C2AAE2C8264C400A32F91 /* Build configuration list for PBXNativeTarget "MkodoUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103C2AAF2C8264C400A32F91 /* Debug */,
+				103C2AB02C8264C400A32F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 103C2A7C2C8264C300A32F91 /* Project object */;
+}

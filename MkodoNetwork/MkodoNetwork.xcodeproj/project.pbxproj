@@ -7,95 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		103C2A6C2C8264A600A32F91 /* MkodoNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103C2A632C8264A600A32F91 /* MkodoNetwork.framework */; };
-		103C2A712C8264A600A32F91 /* LotteryServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103C2A702C8264A600A32F91 /* LotteryServiceTests.swift */; };
-		103C2A722C8264A600A32F91 /* MkodoNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 103C2A662C8264A600A32F91 /* MkodoNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		103C2AB32C82650800A32F91 /* LotteryDraws.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103C2AB22C82650800A32F91 /* LotteryDraws.swift */; };
-		103C2AB52C82658200A32F91 /* LotteryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103C2AB42C82658200A32F91 /* LotteryService.swift */; };
-		10B75B052C826FA800AEDD0B /* lottery_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B75B042C826FA800AEDD0B /* lottery_data.json */; };
-		10B75B062C826FCD00AEDD0B /* lottery_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B75B042C826FA800AEDD0B /* lottery_data.json */; };
+		10FE61F42C85CEA900918FE2 /* MKODONetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE61EB2C85CEA900918FE2 /* MKODONetwork.framework */; };
+		10FE61FA2C85CEA900918FE2 /* MKODONetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 10FE61EE2C85CEA900918FE2 /* MKODONetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10FE623B2C85CF2400918FE2 /* NWLotteryDraws.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE623A2C85CF2400918FE2 /* NWLotteryDraws.swift */; };
+		10FE623D2C85CF5100918FE2 /* LotteryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE623C2C85CF5100918FE2 /* LotteryService.swift */; };
+		10FE623F2C85CF6C00918FE2 /* LotteryServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE623E2C85CF6C00918FE2 /* LotteryServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		103C2A6D2C8264A600A32F91 /* PBXContainerItemProxy */ = {
+		10FE61F52C85CEA900918FE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 103C2A5A2C8264A600A32F91 /* Project object */;
+			containerPortal = 10FE61E22C85CEA900918FE2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 103C2A622C8264A600A32F91;
-			remoteInfo = MkodoNetwork;
+			remoteGlobalIDString = 10FE61EA2C85CEA900918FE2;
+			remoteInfo = MKODONetwork;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		103C2A632C8264A600A32F91 /* MkodoNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MkodoNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		103C2A662C8264A600A32F91 /* MkodoNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MkodoNetwork.h; sourceTree = "<group>"; };
-		103C2A6B2C8264A600A32F91 /* MkodoNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MkodoNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		103C2A702C8264A600A32F91 /* LotteryServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryServiceTests.swift; sourceTree = "<group>"; };
-		103C2AB22C82650800A32F91 /* LotteryDraws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryDraws.swift; sourceTree = "<group>"; };
-		103C2AB42C82658200A32F91 /* LotteryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryService.swift; sourceTree = "<group>"; };
-		10B75B042C826FA800AEDD0B /* lottery_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lottery_data.json; sourceTree = "<group>"; };
+		10FE61EB2C85CEA900918FE2 /* MKODONetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKODONetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FE61EE2C85CEA900918FE2 /* MKODONetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKODONetwork.h; sourceTree = "<group>"; };
+		10FE61F32C85CEA900918FE2 /* MKODONetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKODONetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FE623A2C85CF2400918FE2 /* NWLotteryDraws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWLotteryDraws.swift; sourceTree = "<group>"; };
+		10FE623C2C85CF5100918FE2 /* LotteryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryService.swift; sourceTree = "<group>"; };
+		10FE623E2C85CF6C00918FE2 /* LotteryServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		103C2A602C8264A600A32F91 /* Frameworks */ = {
+		10FE61E82C85CEA900918FE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		103C2A682C8264A600A32F91 /* Frameworks */ = {
+		10FE61F02C85CEA900918FE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				103C2A6C2C8264A600A32F91 /* MkodoNetwork.framework in Frameworks */,
+				10FE61F42C85CEA900918FE2 /* MKODONetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		103C2A592C8264A600A32F91 = {
+		10FE61E12C85CEA900918FE2 = {
 			isa = PBXGroup;
 			children = (
-				103C2A652C8264A600A32F91 /* MkodoNetwork */,
-				103C2A6F2C8264A600A32F91 /* MkodoNetworkTests */,
-				103C2A642C8264A600A32F91 /* Products */,
+				10FE61ED2C85CEA900918FE2 /* MKODONetwork */,
+				10FE61F72C85CEA900918FE2 /* MKODONetworkTests */,
+				10FE61EC2C85CEA900918FE2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		103C2A642C8264A600A32F91 /* Products */ = {
+		10FE61EC2C85CEA900918FE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				103C2A632C8264A600A32F91 /* MkodoNetwork.framework */,
-				103C2A6B2C8264A600A32F91 /* MkodoNetworkTests.xctest */,
+				10FE61EB2C85CEA900918FE2 /* MKODONetwork.framework */,
+				10FE61F32C85CEA900918FE2 /* MKODONetworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		103C2A652C8264A600A32F91 /* MkodoNetwork */ = {
+		10FE61ED2C85CEA900918FE2 /* MKODONetwork */ = {
 			isa = PBXGroup;
 			children = (
-				103C2AB12C8264E100A32F91 /* DTOs */,
-				103C2A662C8264A600A32F91 /* MkodoNetwork.h */,
-				103C2AB42C82658200A32F91 /* LotteryService.swift */,
-				10B75B042C826FA800AEDD0B /* lottery_data.json */,
+				10FE62392C85CF0E00918FE2 /* DTOs */,
+				10FE61EE2C85CEA900918FE2 /* MKODONetwork.h */,
+				10FE623C2C85CF5100918FE2 /* LotteryService.swift */,
 			);
-			path = MkodoNetwork;
+			path = MKODONetwork;
 			sourceTree = "<group>";
 		};
-		103C2A6F2C8264A600A32F91 /* MkodoNetworkTests */ = {
+		10FE61F72C85CEA900918FE2 /* MKODONetworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				103C2A702C8264A600A32F91 /* LotteryServiceTests.swift */,
+				10FE623E2C85CF6C00918FE2 /* LotteryServiceTests.swift */,
 			);
-			path = MkodoNetworkTests;
+			path = MKODONetworkTests;
 			sourceTree = "<group>";
 		};
-		103C2AB12C8264E100A32F91 /* DTOs */ = {
+		10FE62392C85CF0E00918FE2 /* DTOs */ = {
 			isa = PBXGroup;
 			children = (
-				103C2AB22C82650800A32F91 /* LotteryDraws.swift */,
+				10FE623A2C85CF2400918FE2 /* NWLotteryDraws.swift */,
 			);
 			path = DTOs;
 			sourceTree = "<group>";
@@ -103,73 +99,73 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		103C2A5E2C8264A600A32F91 /* Headers */ = {
+		10FE61E62C85CEA900918FE2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				103C2A722C8264A600A32F91 /* MkodoNetwork.h in Headers */,
+				10FE61FA2C85CEA900918FE2 /* MKODONetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		103C2A622C8264A600A32F91 /* MkodoNetwork */ = {
+		10FE61EA2C85CEA900918FE2 /* MKODONetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 103C2A752C8264A600A32F91 /* Build configuration list for PBXNativeTarget "MkodoNetwork" */;
+			buildConfigurationList = 10FE61FD2C85CEA900918FE2 /* Build configuration list for PBXNativeTarget "MKODONetwork" */;
 			buildPhases = (
-				103C2A5E2C8264A600A32F91 /* Headers */,
-				103C2A5F2C8264A600A32F91 /* Sources */,
-				103C2A602C8264A600A32F91 /* Frameworks */,
-				103C2A612C8264A600A32F91 /* Resources */,
+				10FE61E62C85CEA900918FE2 /* Headers */,
+				10FE61E72C85CEA900918FE2 /* Sources */,
+				10FE61E82C85CEA900918FE2 /* Frameworks */,
+				10FE61E92C85CEA900918FE2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MkodoNetwork;
-			productName = MkodoNetwork;
-			productReference = 103C2A632C8264A600A32F91 /* MkodoNetwork.framework */;
+			name = MKODONetwork;
+			productName = MKODONetwork;
+			productReference = 10FE61EB2C85CEA900918FE2 /* MKODONetwork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		103C2A6A2C8264A600A32F91 /* MkodoNetworkTests */ = {
+		10FE61F22C85CEA900918FE2 /* MKODONetworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 103C2A782C8264A600A32F91 /* Build configuration list for PBXNativeTarget "MkodoNetworkTests" */;
+			buildConfigurationList = 10FE62002C85CEA900918FE2 /* Build configuration list for PBXNativeTarget "MKODONetworkTests" */;
 			buildPhases = (
-				103C2A672C8264A600A32F91 /* Sources */,
-				103C2A682C8264A600A32F91 /* Frameworks */,
-				103C2A692C8264A600A32F91 /* Resources */,
+				10FE61EF2C85CEA900918FE2 /* Sources */,
+				10FE61F02C85CEA900918FE2 /* Frameworks */,
+				10FE61F12C85CEA900918FE2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				103C2A6E2C8264A600A32F91 /* PBXTargetDependency */,
+				10FE61F62C85CEA900918FE2 /* PBXTargetDependency */,
 			);
-			name = MkodoNetworkTests;
-			productName = MkodoNetworkTests;
-			productReference = 103C2A6B2C8264A600A32F91 /* MkodoNetworkTests.xctest */;
+			name = MKODONetworkTests;
+			productName = MKODONetworkTests;
+			productReference = 10FE61F32C85CEA900918FE2 /* MKODONetworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		103C2A5A2C8264A600A32F91 /* Project object */ = {
+		10FE61E22C85CEA900918FE2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					103C2A622C8264A600A32F91 = {
+					10FE61EA2C85CEA900918FE2 = {
 						CreatedOnToolsVersion = 15.4;
 						LastSwiftMigration = 1540;
 					};
-					103C2A6A2C8264A600A32F91 = {
+					10FE61F22C85CEA900918FE2 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 103C2A5D2C8264A600A32F91 /* Build configuration list for PBXProject "MkodoNetwork" */;
+			buildConfigurationList = 10FE61E52C85CEA900918FE2 /* Build configuration list for PBXProject "MKODONetwork" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,66 +173,64 @@
 				en,
 				Base,
 			);
-			mainGroup = 103C2A592C8264A600A32F91;
-			productRefGroup = 103C2A642C8264A600A32F91 /* Products */;
+			mainGroup = 10FE61E12C85CEA900918FE2;
+			productRefGroup = 10FE61EC2C85CEA900918FE2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				103C2A622C8264A600A32F91 /* MkodoNetwork */,
-				103C2A6A2C8264A600A32F91 /* MkodoNetworkTests */,
+				10FE61EA2C85CEA900918FE2 /* MKODONetwork */,
+				10FE61F22C85CEA900918FE2 /* MKODONetworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		103C2A612C8264A600A32F91 /* Resources */ = {
+		10FE61E92C85CEA900918FE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10B75B052C826FA800AEDD0B /* lottery_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		103C2A692C8264A600A32F91 /* Resources */ = {
+		10FE61F12C85CEA900918FE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10B75B062C826FCD00AEDD0B /* lottery_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		103C2A5F2C8264A600A32F91 /* Sources */ = {
+		10FE61E72C85CEA900918FE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				103C2AB52C82658200A32F91 /* LotteryService.swift in Sources */,
-				103C2AB32C82650800A32F91 /* LotteryDraws.swift in Sources */,
+				10FE623B2C85CF2400918FE2 /* NWLotteryDraws.swift in Sources */,
+				10FE623D2C85CF5100918FE2 /* LotteryService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		103C2A672C8264A600A32F91 /* Sources */ = {
+		10FE61EF2C85CEA900918FE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				103C2A712C8264A600A32F91 /* LotteryServiceTests.swift in Sources */,
+				10FE623F2C85CF6C00918FE2 /* LotteryServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		103C2A6E2C8264A600A32F91 /* PBXTargetDependency */ = {
+		10FE61F62C85CEA900918FE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 103C2A622C8264A600A32F91 /* MkodoNetwork */;
-			targetProxy = 103C2A6D2C8264A600A32F91 /* PBXContainerItemProxy */;
+			target = 10FE61EA2C85CEA900918FE2 /* MKODONetwork */;
+			targetProxy = 10FE61F52C85CEA900918FE2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		103C2A732C8264A600A32F91 /* Debug */ = {
+		10FE61FB2C85CEA900918FE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,7 +296,7 @@
 			};
 			name = Debug;
 		};
-		103C2A742C8264A600A32F91 /* Release */ = {
+		10FE61FC2C85CEA900918FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -361,7 +355,7 @@
 			};
 			name = Release;
 		};
-		103C2A762C8264A600A32F91 /* Debug */ = {
+		10FE61FE2C85CEA900918FE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -384,7 +378,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MkodoNetwork;
+				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MKODONetwork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -395,7 +389,7 @@
 			};
 			name = Debug;
 		};
-		103C2A772C8264A600A32F91 /* Release */ = {
+		10FE61FF2C85CEA900918FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -418,7 +412,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MkodoNetwork;
+				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MKODONetwork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -428,7 +422,7 @@
 			};
 			name = Release;
 		};
-		103C2A792C8264A600A32F91 /* Debug */ = {
+		10FE62012C85CEA900918FE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -436,7 +430,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MkodoNetworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MKODONetworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -444,7 +438,7 @@
 			};
 			name = Debug;
 		};
-		103C2A7A2C8264A600A32F91 /* Release */ = {
+		10FE62022C85CEA900918FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -452,7 +446,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MkodoNetworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = eren.co.uk.MKODONetworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -463,34 +457,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		103C2A5D2C8264A600A32F91 /* Build configuration list for PBXProject "MkodoNetwork" */ = {
+		10FE61E52C85CEA900918FE2 /* Build configuration list for PBXProject "MKODONetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				103C2A732C8264A600A32F91 /* Debug */,
-				103C2A742C8264A600A32F91 /* Release */,
+				10FE61FB2C85CEA900918FE2 /* Debug */,
+				10FE61FC2C85CEA900918FE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		103C2A752C8264A600A32F91 /* Build configuration list for PBXNativeTarget "MkodoNetwork" */ = {
+		10FE61FD2C85CEA900918FE2 /* Build configuration list for PBXNativeTarget "MKODONetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				103C2A762C8264A600A32F91 /* Debug */,
-				103C2A772C8264A600A32F91 /* Release */,
+				10FE61FE2C85CEA900918FE2 /* Debug */,
+				10FE61FF2C85CEA900918FE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		103C2A782C8264A600A32F91 /* Build configuration list for PBXNativeTarget "MkodoNetworkTests" */ = {
+		10FE62002C85CEA900918FE2 /* Build configuration list for PBXNativeTarget "MKODONetworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				103C2A792C8264A600A32F91 /* Debug */,
-				103C2A7A2C8264A600A32F91 /* Release */,
+				10FE62012C85CEA900918FE2 /* Debug */,
+				10FE62022C85CEA900918FE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 103C2A5A2C8264A600A32F91 /* Project object */;
+	rootObject = 10FE61E22C85CEA900918FE2 /* Project object */;
 }

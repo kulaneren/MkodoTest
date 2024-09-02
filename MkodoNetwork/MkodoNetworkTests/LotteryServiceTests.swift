@@ -1,12 +1,12 @@
 //
-//  MkodoNetworkTests.swift
-//  MkodoNetworkTests
+//  LotteryServiceTests.swift
+//  MKODONetworkTests
 //
-//  Created by eren k on 30/08/2024.
+//  Created by eren k on 02/09/2024.
 //
 
 import XCTest
-@testable import MkodoNetwork
+@testable import MKODONetwork
 
 final class LotteryServiceTests: XCTestCase {
 
@@ -37,3 +37,4 @@ final class LotteryServiceTests: XCTestCase {
         wait(for: [lotteryExpectation], timeout: 3.0)
     }
 }
+

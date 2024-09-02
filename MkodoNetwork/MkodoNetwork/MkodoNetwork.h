@@ -1,18 +1,18 @@
 //
-//  MkodoNetwork.h
-//  MkodoNetwork
+//  MKODONetwork.h
+//  MKODONetwork
 //
-//  Created by eren k on 30/08/2024.
+//  Created by eren k on 02/09/2024.
 //
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for MkodoNetwork.
-FOUNDATION_EXPORT double MkodoNetworkVersionNumber;
+//! Project version number for MKODONetwork.
+FOUNDATION_EXPORT double MKODONetworkVersionNumber;
 
-//! Project version string for MkodoNetwork.
-FOUNDATION_EXPORT const unsigned char MkodoNetworkVersionString[];
+//! Project version string for MKODONetwork.
+FOUNDATION_EXPORT const unsigned char MKODONetworkVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <MkodoNetwork/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <MKODONetwork/PublicHeader.h>
 
 

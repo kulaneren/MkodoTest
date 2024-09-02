@@ -1,8 +1,8 @@
 //
-//  NetworkManager.swift
-//  MkodoNetwork
+//  LotteryService.swift
+//  MKODONetwork
 //
-//  Created by eren k on 30/08/2024.
+//  Created by eren k on 02/09/2024.
 //
 
 import Foundation
@@ -129,3 +129,4 @@ let lotteryData: Data =
     ]
 }
 """.data(using: .utf8)!
+

@@ -12,7 +12,7 @@ Eren Kulan kulaneren@gmail.com
 ```
 ## Chosen architecture
 
-MVVM pattern is used with adding builders and presentations. 
+MVVM pattern is used.
 
 ## Known issues - Decisions
 
